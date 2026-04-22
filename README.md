@@ -38,7 +38,7 @@ The system follows a client-server architecture with realtime communication:
 
 Architecture Diagram:
 
-![Architecture](./docs/architecture.png)
+![System Architecture](./docs/system-overview.png)
 
 ---
 
@@ -59,7 +59,7 @@ Relationships:
 
 Database Diagram:
 
-![Database](./docs/database.png)
+![Database Schema](./docs/system-overview.png)
 
 ---
 
@@ -77,7 +77,7 @@ The system uses WebSocket (Socket.io) for realtime collaboration:
 
 Realtime Flow Diagram:
 
-![Realtime](./docs/realtime.png)
+![Realtime Flow](./docs/system-overview.png)
 
 ---
 
