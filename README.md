@@ -1,4 +1,4 @@
-# README.md
+## README.md (fixed version)
 
 ```markdown
 # Realtime Task Collaboration System
@@ -38,7 +38,7 @@ The system follows a client-server architecture with realtime communication:
 
 Architecture Diagram:
 
-![System Architecture](./docs/system-overview.png)
+![System Architecture](./docs/architecture.png)
 
 ---
 
@@ -46,10 +46,10 @@ Architecture Diagram:
 
 Main entities:
 
-- **User**
-- **Workspace**
-- **Task**
-- **Member**
+- User
+- Workspace
+- Task
+- Member
 
 Relationships:
 
@@ -59,7 +59,7 @@ Relationships:
 
 Database Diagram:
 
-![Database Schema](./docs/system-overview.png)
+![Database Schema](./docs/database.png)
 
 ---
 
@@ -77,7 +77,7 @@ The system uses WebSocket (Socket.io) for realtime collaboration:
 
 Realtime Flow Diagram:
 
-![Realtime Flow](./docs/system-overview.png)
+![Realtime Flow](./docs/realtime.png)
 
 ---
 
@@ -101,15 +101,16 @@ realtime-task-collaboration/
 
 ````
 
+---
 
-##  Setup & Run Project
+## Setup & Run Project
 
 ### 1. Clone repository
 
 ```bash
 git clone https://github.com/kiettruong-dev/realtime-task-collaboration.git
 cd realtime-task-collaboration
-```
+````
 
 ---
 
@@ -173,12 +174,12 @@ npm run dev
 
 ## 🔌 Realtime Events (Socket.io)
 
-| Event         | Description      |
-| ------------- | ---------------- |
-| `task:create` | Create new task  |
-| `task:update` | Update task      |
-| `task:delete` | Delete task      |
-| `task:move`   | Drag & drop task |
+| Event       | Description      |
+| ----------- | ---------------- |
+| task:create | Create new task  |
+| task:update | Update task      |
+| task:delete | Delete task      |
+| task:move   | Drag & drop task |
 
 ---
 
@@ -187,7 +188,7 @@ npm run dev
 - User authentication (JWT)
 - Workspace management
 - Task CRUD
-- Drag & drop task (kanban style)
+- Drag & drop kanban board
 - Realtime collaboration (Socket.io)
 
 ---
@@ -199,5 +200,10 @@ npm run dev
 - File attachments
 - Activity logs
 
+```
+
 ---
-````
+
+
+
+```
