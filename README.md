@@ -171,7 +171,7 @@ npm run dev
 
 ---
 
-## 🔌 Realtime Events (Socket.io)
+##  Realtime Events (Socket.io)
 
 | Event         | Description      |
 | ------------- | ---------------- |
