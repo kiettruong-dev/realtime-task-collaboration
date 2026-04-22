@@ -75,7 +75,7 @@ The system uses WebSocket (Socket.io) for realtime collaboration:
 4. Backend broadcasts event to all connected clients
 5. Other users receive event and update UI instantly
 
-📌 Realtime Flow Diagram:
+Realtime Flow Diagram:
 
 ![Realtime](./docs/realtime.png)
 
@@ -124,9 +124,16 @@ npm install
 Create `.env` file:
 
 ```
-DATABASE_URL="postgresql://user:password@localhost:5432/db"
-JWT_SECRET="your_secret"
 PORT=3000
+
+DATABASE_URL="postgresql://user:password@localhost:5432/task_realtime"
+
+JWT_SECRET="your-secret-key"
+JWT_EXPIRATION="1d"
+
+CORS_ORIGIN=http://localhost:5173
+
+SALT_ROUNDS=10
 ```
 
 Run migration:
@@ -153,7 +160,8 @@ npm install
 Create `.env`:
 
 ```
-VITE_API_URL=http://localhost:3000
+VITE_CRYPTO_KEY=your-key
+VITE_BASE_URL=http://localhost:3000
 ```
 
 Start frontend:
