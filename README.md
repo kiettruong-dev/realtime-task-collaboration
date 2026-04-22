@@ -101,7 +101,6 @@ realtime-task-collaboration/
 
 ````
 
----
 
 ##  Setup & Run Project
 
