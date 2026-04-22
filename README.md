@@ -109,7 +109,7 @@ realtime-task-collaboration/
 ```bash
 git clone https://github.com/kiettruong-dev/realtime-task-collaboration.git
 cd realtime-task-collaboration
-````
+```
 
 ---
 
@@ -200,3 +200,4 @@ npm run dev
 - Activity logs
 
 ---
+````
