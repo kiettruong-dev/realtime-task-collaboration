@@ -108,7 +108,7 @@ realtime-task-collaboration/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/kiettruong-dev/realtime-task-collaboration.git
 cd realtime-task-collaboration
 ````
 
@@ -117,7 +117,7 @@ cd realtime-task-collaboration
 ### 2. Setup Backend
 
 ```bash
-cd backend
+cd realtime-task-collaboration-backend
 npm install
 ```
 
@@ -153,7 +153,7 @@ npm run start:dev
 ### 3. Setup Frontend
 
 ```bash
-cd frontend
+cd realtime-task-collaboration-frontend
 npm install
 ```
 
